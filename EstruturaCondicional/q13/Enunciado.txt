@@ -1,0 +1,98 @@
+Em um jogo de azar, o jogador lança três moedas em sequência. Caso obtenha CARA nos três lançamentos, o valor apostado é dobrado, caso obtenha CARA em dois lançamentos em sequência, o valor apostado é acrescido de 50%, caso contrário perde o valor apostado. Por exemplo, CARA, COROA, CARA perde o valor apostado pois não contém duas caras em sequência. Faça um programa que leia a face da moeda nos três lançamentos e o valor da aposta, tendo como saída o valor do resultado.
+
+Faça um programa que leia de um arquivo a face da moeda nos três lançamentos e o valor da aposta. O nome do arquivo será informado pelo usuário. O programa deve escrever na saída padrão o valor do resultado.
+
+Entradas:
+
+    Uma string que representa o nome do arquivo a ser lido. 
+
+Conteúdo do arquivo:
+
+    Valor da face na primeira jogada (texto:'CARA' ou 'COROA')
+    Valor da face na segunda jogada (texto:'CARA' ou 'COROA')
+    Valor da face na terceira jogada (texto:'CARA' ou 'COROA')
+    Valor da aposta (real)
+
+Saídas:
+
+    Valor do resultado
+
+Exemplo 1
+
+Exemplo de entrada:
+sorteio1.txt
+
+Exemplo de conteúdo do arquivo de entrada:
+
+CARA
+COROA
+COROA
+31.59
+
+Exemplo de Saída:
+
+0.00
+
+Exemplo 2
+
+Exemplo de entrada:
+sorteio2
+
+Exemplo de conteúdo do arquivo de entrada:
+
+COROA
+COROA
+COROA
+52.99
+
+Exemplo de Saída:
+
+0.00
+
+Exemplo 3
+
+Exemplo de entrada:
+sorteio3.txt
+
+Exemplo de conteúdo do arquivo de entrada:
+
+COROA
+CARA
+CARA
+5.33
+
+Exemplo de Saída:
+
+7.995
+
+Exemplo 4
+
+Exemplo de entrada:
+sorteio4.txt
+
+Exemplo de conteúdo do arquivo de entrada:
+
+CARA
+COROA
+COROA
+86.45
+
+Exemplo de Saída:
+
+0.00
+
+Exemplo 5
+
+Exemplo de entrada:
+sorteio5
+
+Exemplo de conteúdo do arquivo de entrada:
+
+COROA
+CARA
+COROA
+68.43
+
+Exemplo de Saída:
+
+0.00

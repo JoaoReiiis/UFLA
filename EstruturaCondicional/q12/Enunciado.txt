@@ -1,0 +1,31 @@
+
+
+O Senhor das Estrelas resolve atualizar o software da nave utilizada pelos Guardiões da Galáxia. O processo de atualização demora vários minutos e o computador de bordo informa quantos minutos faltam para terminar a atualização, mas o Senhor das Estrelas gostaria de saber exatamente quando é isso para ajustar um alarme. Faça um programa que lê, a partir do arquivo "alarme.txt", o dia, hora e minuto atual, além de uma duração em minutos e escreve o resultado da adição da duração com o horário atual. Para simplificar, suponha que nunca vai ocorrer mudança de mês no processamento.
+
+Entradas (conteúdo do arquivo "alarme.txt"):
+
+    dia atual;
+    hora atual;
+    minuto atual;
+    quantidade de minutos restante para o término da atualização.
+
+Saídas:
+
+    data, hora e minuto de previsão do término
+
+Exemplo de Entrada (conteúdo do arquivo "alarme.txt"):
+
+12 5 19 365
+
+Exemplo de Saída:
+
+12 11 24
+
+Exemplo de Entrada (conteúdo do arquivo "alarme.txt"):
+
+5 8 0 1560
+
+Exemplo de Saída:
+
+6 10 0
+
