@@ -1,0 +1,926 @@
+
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 08:48:46
+
+Tentativas: 1 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 2: Estrutura Condicional - Operações Aritméticas
+
+Faça um programa que receba como entrada dois números em ponto flutuante, representando os operandos A e B de uma expressão aritmética a ser definida. Após receber os valores de A e B, seu programa deverá receber um número inteiro X compreendido no intervalo [1,4] que indicará uma determinada operação aritmética a ser computada. Os dados de entrada serão fornecidos em linhas diferentes. Seu programa deverá calcular a operação aritmética indicada por X e exibir no dispositivo de saída padrão o resultado da mesma. As operações aritméticas definidas por X são indicadas na relação a seguir:
+
+Obs. Python: para soluções em Python, assuma que números em ponto flutuante com precisão dupla são os números em ponto flutuante tradicionais, ou seja, números em float.
+
+Obs. C/C++: para soluções em C ou C++, assuma que números em ponto flutuante com precisão dupla são obtidos utilizando double.
+Escolha do Usuário (X) 	Operação
+1 	Média entre os números digitados
+2 	Subtrair o menor número do maior
+3 	Produto entre os números digitados
+4 	Divisão do primeiro pelo segundo
+
+Se a opção digitada for inválida, seu programa deverá exibir a mensagem ERRO e terminar a execução do programa. Lembre-se de que, na operação 4, o segundo número deve ser diferente de zero. Nesta situação, caso o segundo número seja igual a zero, a mensagem ERRO também deve ser exibida.
+
+Entradas:
+
+    Dois números em ponto flutuante com precisão dupla A e B.
+    Número inteiro X que indica a operação aritmética a ser computada.
+
+Saídas:
+
+    Número em ponto flutuante com precisão dupla que denota o resultado da expressão aritmética; ou a mensagem ERRO, caso o usuário insira um valor inválido de operação .
+
+Exemplo de entrada:
+
+9.5
+7.0
+5
+
+Exemplo de saída:
+
+ERRO
+
+Exemplo de entrada:
+
+9.5
+7.0
+2
+
+Exemplo de saída:
+
+2.5
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 09:01:14
+
+Tentativas: 1 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 3: Estrutura Condicional - Média Ponderada de Três Avaliações
+
+A nota final de um estudante é calculada a partir de três notas atribuídas, respectivamente, a um trabalho de laboratório, a uma avaliação semestral e a um exame final. A média das três notas mencionadas obedece aos pesos a seguir:
+Nota 	Peso
+Trabalho de Laboratório 	2
+Avaliação Semestral 	3
+Exame Final 	5
+
+Faça um programa que receba as três notas do dispositivo de entrada padrão, calcule e mostre a média ponderada das notas obtidas pelo aluno. Seu programa deverá informar também o conceito obtido pelo aluno na disciplina, segundo a relação a seguir:
+Média Ponderada 	Conceito
+[8.0,10.0] 	A
+[7.0,8.0[ 	B
+[6.0,7.0[ 	C
+[5.0,6.0[ 	D
+[0.0,5.0[ 	E
+
+Entradas:
+
+    Três números em ponto flutuante que denotam as três notas obtidas pelo aluno. As notas são fornecidas de acordo com a seguinte ordem: nota do trabalho de laboratório, nota da avaliação semestral e, por último, nota do exame final. Cada dado de entrada será fornecido em uma linha diferente.
+
+Saídas:
+
+    Número em ponto flutuante que indica a média ponderada das notas passadas como entrada.
+    Caractere que indica o conceito obtido pelo aluno na disciplina.
+
+Exemplo de entrada:
+
+7.5
+5.0
+6.1
+
+Exemplo de saída:
+
+6.05
+C
+
+Exemplo de Entrada:
+
+8.0
+6.5
+8.9
+
+Exemplo de Saída:
+
+8.0
+A
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 09:15:41
+
+Tentativas: 1 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 4: Estrutura Condicional - Grupos de Risco
+
+Faça um programa que receba a idade e o peso de uma pessoa (uma informação em cada linha). De acordo com a relação a seguir, seu programa deverá verificar e exibir no dispositivo de saída padrão a qual grupo de risco essa pessoa se encaixa. Os grupos de risco são denotados por um número natural compreendido no intervalo [1,9].
+Idade (em anos) 	Até 60 Kg 	Entre 60 Kg e 90 Kg (inclusive) 	Acima de 90 Kg
+Menores que 20 	9 	8 	7
+De 20 a 50 (inclusive) 	6 	5 	4
+Maiores que 50 	3 	2 	1
+
+Entradas:
+
+    Número inteiro que indica a idade de uma pessoa.
+    Número em ponto flutuante que indica o peso de uma pessoa em quilogramas.
+
+Saídas:
+
+    Número inteiro que indica o grupo de risco no qual a pessoa se encaixa.
+
+Exemplo de entrada:
+
+30
+80.0
+
+Exemplo de saída:
+
+5
+
+Exemplo de Entrada:
+
+50
+97.35
+
+Exemplo de Saída:
+
+4
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 09:13:56
+
+Tentativas: 1 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 5: Estrutura Condicional - Quarto número na ordem
+
+Em muitos programas é muito útil ter os dados em uma determinada ordem: números do menor para o maior, palavras em ordem alfabética, etc. Nesse exercício você deve criar um programa que recebe três números inteiros em ordem crescente, ou seja, o usuário fornecerá os números garantindo que o segundo é maior que o primeiro e o terceiro é maior que o segundo. O programa deverá receber também um quarto número inteiro qualquer e, deve exibir os quatro números em ordem crescente. Atente para o caso em que o quarto número pode ser igual a um dos demais.
+
+Entradas:
+
+    Três números inteiros informados em ordem crescente. Um número inteiro qualquer. Cada dado de entrada será fornecido em uma linha diferente.
+
+Saídas:
+
+    Os quatro números inteiros informados exibidos em ordem crescente.
+
+Exemplo de entrada:
+
+3 
+6 
+9
+4
+
+Exemplo de saída:
+
+3 4 6 9
+
+Exemplo de Entrada:
+
+1
+5
+7
+11
+
+Exemplo de Saída:
+
+1 5 7 11
+
+Exemplo de Entrada:
+
+3
+6
+12
+2
+
+Exemplo de Saída:
+
+2 3 6 12
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 08:42:02
+
+Tentativas: 1 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 6: Estrutura Condicional - Classificação por Peso e Altura
+
+Faça um programa que receba o peso e a altura de uma pessoa. De acordo com a tabela a seguir, verifique e mostre a classificação dessa pessoa.
+Altura 	Peso
+Abaixo de 60Kg 	Entre 60Kg e 90Kg (inclusive) 	Acima de 90Kg
+Menores que 1,20m 	A 	D 	G
+De 1,20m a 1,70m (inclusive) 	B 	E 	H
+Maiores que 1,70m 	C 	F 	I
+
+Entradas:
+
+    Peso e altura do indivíduo (em ponto flutuante)
+
+Saídas:
+
+    Classificação do indivíduo (um caracter)
+
+Exemplo de entrada:
+
+54.2
+1.56
+
+Exemplo de saída:
+
+B
+
+Exemplo de Entrada:
+
+90
+1.83
+
+Exemplo de Saída:
+
+F
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 09:39:33
+
+Tentativas: 2 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 7: Estrutura Condicional - Alfândega
+
+Faça um programa para auxiliar nas atividades realizadas por uma alfândega. Para realizar estas atividades seu programa deverá receber como entrada três tipos de informação, a saber: (1) código de um produto comprado. Assuma que a digitação do código do produto será sempre válida, o que neste programa significa um número inteiro entre 1 e 10 ; (2) peso do produto em quilogramas; e (3) código do país de origem do produto. Assuma que a digitação do código será sempre válida, o que neste programa significa um número inteiro entre 1 e 3. Cada dado de entrada será fornecido em uma linha diferente. Seu programa deverá calcular e exibir no dispositivo de saída padrão as seguintes informações (nesta ordem):
+
+    O peso do produto convertido em gramas.
+    O preço bruto do produto comprado, definido de acordo com o seu peso em gramas e o código do produto.
+    O valor do imposto, sabendo-se que ele é cobrado sobre o preço bruto do produto comprado e depende do país de origem.
+    O valor total do produto, dado pelo preço bruto do produto mais o imposto.
+
+Para realizar estes cálculos, considere as tributações elucidadas a seguir:
+Código do país de origem 	Imposto
+1 	0%
+2 	15%
+3 	25%
+Código do produto 	Preço por grama
+1 a 4 	10
+5 a 7 	25
+8 a 10 	35
+
+Entradas:
+
+    Número inteiro que denota o código do produto. Número entre 1 e 10.
+    Número em ponto flutuante (float) que denota o peso do produto em quilogramas.
+    Número inteiro que denota o país de origem do produto. Número entre 1 e 3.
+
+Saídas:
+
+    Número em ponto flutuante (float) que denota o peso do produto em gramas.
+    Número em ponto flutuante (float) que denota o preço bruto do produto.
+    Número em ponto flutuante (float) que denota o imposto sobre o produto.
+    Número em ponto flutuante (float) que denota o preço total do produto.
+
+Exemplo de entrada:
+
+7
+0.5
+3
+
+Exemplo de saída:
+
+500.0
+12500.0
+3125.0
+15625.0
+
+Exemplo de Entrada:
+
+3
+4.7532
+1
+
+Exemplo de Saída:
+
+4753.2
+47532.0
+0.0
+47532.0
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 16:46:59
+
+Tentativas: 1 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 8: Estrutura Condicional - Gratificação de Natal.
+
+Uma empresa decidiu dar uma gratificação de natal a seus funcionários, baseada no número de horas extras e no número de horas que o funcionário faltou ao trabalho. O valor do prêmio é obtido pela consulta à tabela que se segue, na qual:
+
+H=número de horas extras - (2/3*(número de horas-faltas))
+H(Minutos) 	Prêmio(R$)
+Maior que 2400 	500
+Entre 1800 e 2400 (incluso) 	400
+Entre 1200 e 1800 (incluso) 	300
+Entre 600 e 1200 (incluso) 	200
+Menor igual a 600 	100
+
+Entradas:
+
+    Número de horas extras (float).
+    Número de horas-faltas (float).
+
+Saídas:
+
+    Prêmio que o funcionário irá receber.
+
+Exemplo de Entrada:
+
+24
+3
+
+Exemplo de Saída:
+
+300
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 16:46:31
+
+Tentativas: 1 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 9: Estrutura Condicional - Seno ou Cosseno
+
+Muitos programas comumente oferecem diversas funções para o usuário. Em um programa gráfico o usuário escolhe a função que deseja através de componentes gráficos como menus e botões. Já em programas de linha de comando podemos deixar o usuário escolher uma função através de códigos ou símbolos.
+
+Seguindo essa linha faça um programa que permita ao usuário solicitar o cálculo do seno ou do cosseno de um ângulo, e este ângulo pode ser fornecido em graus ou radianos.
+
+Para isso o usuário deverá primeiro informar uma letra para dizer se deseja o cálculo de seno ou cosseno (s ou c). Em seguida, ele deve informar outra letra dizer se o ângulo a ser fornecido será dado em graus ou radianos (g ou r). Por fim, o usuário deve informar um número decimal com o ângulo desejado. O programa deve então calcular o seno ou cosseno do ângulo informado de acordo com a definição do usuário.
+
+Obs.: soluções em Python devem utilizar funções da biblioteca math. Soluções em C++ devem usar a biblioteca cmath.
+
+Entradas:
+
+    Uma letra, s ou c, indicando se será calculado o seno ou o cosseno, respectivamente.
+    Uma letra, g ou r, indicando se o ângulo a ser informado está em graus ou radianos.
+    Um número decimal representando o ângulo desejado, que pode estar em graus ou radianos
+
+Saídas:
+
+    O valor do seno ou cosseno do ângulo passado.
+
+Exemplo de entrada:
+
+c
+g
+90
+
+Exemplo de saída:
+
+0
+
+Exemplo de Entrada:
+
+s
+r
+0.5
+
+Exemplo de Saída:
+
+0.4794
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 17:11:48
+
+Tentativas: 2 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 10: Estrutura Condicional - Os Hóspedes do Hotel Transilvânia
+
+Crie um programa para definir o quarto adequado para hóspedes do Hotel Transilvânia, sabidamente um dos melhores no que diz respeito à hospedagem de vampiros, zumbis, lobisomens e outros tipos de monstros. Para manter a qualidade, o Hotel adota os seguintes critérios:
+
+    Os quartos do hotel são representados por uma centena, sendo que a centena indica o andar, a dezena indica o corredor e a unidade o quarto em específico naquele corredor e andar.
+    Zumbis e múmias são sempre hospedados no primeiro andar
+    Lobisomens e duendes são sempre hospedados no segundo andar
+    Monstros femininos (hárpias e sucubus) são sempre hospedados no terceiro andar
+    Vampiros e fantasmas são sempre hospedados no quarto andar
+    Para definir o corredor, avalia-se quantas pessoas ficarão no quarto:
+        Qualquer monstro, se viajando sozinho hospeda-se em um quarto no corredor 1.
+        Caso seja um casal, o quarto fica no corredor 2.
+        Caso esteja com filhos (3 ou mais pessoas), o quarto fica no corredor 3.
+    Para definir o quarto no corredor, usa-se o tempo que o monstro deseja ficar hospedado.
+        Caso o monstro for ficar um ou dois dias, ele fica em um quarto de final 1.
+        Caso fique de três a quatro dias, ele fica em um quarto de final 2.
+        Caso fique cinco ou seis dias, ele fica em um quarto de final 3.
+        Caso fique uma semana ou mais, ele fica em um quarto de final 4.
+
+Considere, para efeitos práticos, que é início de temporada e os quartos estão todos vazios.
+
+Entradas:
+
+    Tipo de monstro, indicado por uma letra apenas: z (zumbis), m (múmias), l (lobisomens), d (duendes), h (hárpias), s (sucubus), v (vampiros) e f (fantasmas)
+    Número de pessoas para o quarto
+    Tempo de hospedagem (número de dias)
+
+Saídas:
+
+    Número do quarto (um inteiro), de acordo com as regras estabelecidas
+
+Exemplo de Entrada:
+
+v 4 8
+
+Exemplo de Saída:
+
+434
+
+Exemplo de Entrada:
+
+z 1 3
+
+Exemplo de Saída:
+
+112
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 17:39:46
+
+Tentativas: 1 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 11: Estrutura Condicional - Aposentadoria
+
+Devido ao défict previdenciário brasileiro, o governo propôs novas regras de aposentadoria. Para os trabalhadores que já estão na ativa, existe uma regra de transição que prevê um pedágio (tempo extra) de 30% sobre o tempo que faltaria para atingir 30 anos de trabalho, se for mulher, ou 35 anos de trabalho, se for homem. Por exemplo, uma mulher de 50 anos de idade que já trabalhou 25 anos deverá pagar um pedágio de 30% sobre os 5 anos restantes (que faltariam para completar 30 anos de trabalho), ou seja, terá que trabalhar por mais 6,5 anos. Com isso, ela irá se aposentar aos 56,5 anos, quando alcançará 31,5 anos trabalhados. No entanto, essa regra de transição só é válida para pessoas que já estão trabalhando por mais de 15 anos (15 não incluso), no caso de mulheres, ou mais de 20 anos (20 não incluso), no caso de homens. Para todos os demais casos, a aposentadoria se dará por idade mínima, ou seja, 62 anos para mulheres e 65 anos para homens. Faça um programa que leia o gênero, a idade e a quantidade de anos já trabalhados por uma pessoa e calcule a idade com a qual a mesma irá se aposentar.
+
+Entradas:
+
+    O gênero da pessoa, que será o valor inteiro 1 se for homem ou 0 se for mulher.
+    Idade da pessoa (valor inteiro).
+    Quantidade de tempo (anos) já trabalhados pela pessoa (número real).
+
+Saídas:
+
+    Idade que a pessoa terá a se aposentar (número real).
+
+Exemplo de Entrada:
+
+0
+50
+25
+
+Exemplo de Saída:
+
+56.5
+
+Exemplo de Entrada:
+
+1
+35
+10
+
+Exemplo de Saída:
+
+65
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 18:02:25
+
+Tentativas: 2 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 12: Estrutura Condicional - Colisão Frontal de Trens
+
+Dois maquinistas estão andando em uma mesma linha de trem em sentido a uma colisão. Faça um programa que dada a velocidade dos trens, calcule o tempo restante para a colisão. Se o tempo para a colisão for menor ou igual a 10 segundos, os trens não conseguem parar e o software deve imprimir a palavra "COLISAO". Caso contrário, o tempo deve ser impresso. Lembrando que a fórmula da distância percorrida é d = v × t e que quando objetos estão dirigindo-se em rota de colisão frontal, deve-se somar as velocidades.
+
+Entradas:
+
+    Velocidade do trem 1 (número real)
+    Velocidade do trem 2 (número real)
+    Distância entre os trens (número real)
+
+Saídas:
+
+    A palavra "COLISAO" caso o tempo para a colisão seja menor ou igual a 10 ou o tempo caso contrário.
+
+Exemplo
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 21:21:42
+
+Tentativas: 1 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 13: Estrutura condicional - Churrasco da República Trintagarantido
+
+Para comprar os itens do churrasco que seria realizado na República Trintagarantido, Juvenal e Roberto foram até um hipermercado da cidade. Chegando na seção de churrasco, receberam uma lista com todos os produtos disponíveis e foram orientados a preencher a quantidade desejada de cada um deles. Na lista estão os itens: picanha, alcatra, linguiça, espetinho vegetariano, sal, farinha e carvão. As quantidades a serem informadas por Juvenal e Roberto serão sempre valores inteiros.
+
+Além disso, no momento do pagamento da compra, o atendente informou que o supermercado estava realizando uma promoção. Nas compras até R$ 200,00 (incluso) eles recebem 5% de desconto e que compras acima de R$ 200,00 recebiam 10% de desconto no total da compra realizada.
+
+Escreva um programa que calcule e escreva o total da compra realizada, o valor do desconto e o valor final a ser pago por Juvenal e Roberto (não se preocupe com a quantidade de casas decimais nos valores).
+
+Produto 	Preço por quilo (R$)
+picanha 	28,90
+alcatra 	19,90
+linguiça 	7,95
+espetinho vegetariano 	2,99
+sal 	1,50
+farinha 	1,85
+carvão 	8,70
+
+A entrada de dados é composta de sete números inteiros representando a quantidade a ser comprada de cada produto.
+
+Entradas:
+
+    Sete números inteiros (sendo um por linha) indicando as quantidades a serem compradas de cada produto. 
+
+Saída:
+
+    O valor total da compra
+    O valor do desconto a ser obtido na compra
+    O valor final da compra (valor total - descontos)
+
+Exemplo de entrada:
+
+2
+3
+4
+4
+1
+1
+4
+
+Exemplo de saída:
+
+199.41
+9.97
+189.44
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 21:21:33
+
+Tentativas: 1 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 14: Estrutura Condicional - Passatempo dos bandeirantes
+
+Bandeirantes é a denominação dada aos sertanistas do período colonial, que, a partir do início do século XVI, penetraram nos sertões da América do Sul em busca de riquezas minerais, sobretudo o ouro e a prata.
+
+Em um dado grupo de bandeirantes, um jogo bem simples se mostrou particularmente popular durante suas longas viagens. Tal jogo consistia em falar uma determinada cor se um dado número natural de 6 algarismos fosse um palíndromo, ou dizer uma segunda outra cor caso não fosse. Faça um programa que leia o nome de duas cores e um número natural (nesta ordem), seu programa deverá exibir o nome da primeira cor caso o número natural fornecido seja um palíndromo ou exibir o nome da segunda cor caso ele não seja um palíndromo. Cada dado de entrada será fornecido em uma linha diferente.
+
+Dizemos que um número natural N é palíndromo se
+
+    Primeiro algarismo de N é igual ao seu último algarismo
+    Segundo algarismo de N é igual ao penúltimo algarismo
+
+e assim sucessivamente.
+
+Entradas:
+
+    Nome da primeira cor.
+    Nome da segunda cor.
+    Número inteiro N.
+
+Saídas:
+
+    Nome de uma cor segundo a regra definida no enunciado desta questão.
+
+Exemplo de Entrada:
+
+azul
+vermelho
+567765
+
+Exemplo de Saída:
+
+azul
+
+Exemplo de Entrada:
+
+azul
+vermelho
+567675
+
+Exemplo de Saída:
+
+vermelho
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 21:23:42
+
+Tentativas: 1 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 15: Estrutura Condicional - Exclusão de animais na caravela
+
+Pedro Álvares Cabral precisa organizar as caravelas para carregarem os cavalos, as vacas e as galinhas necessárias para a viagem para as Índias.
+
+A caravela possui um limite de carga e você deverá calcular a quantidade máxima de cada tipo de animal que a caravela poderá carregar. Lembre-se que Cabral possui uma quantidade limitada de cada tipo de animal, além disso, ele também informou qual o tipo de animal que é prioritário e que tipo de informação ele precisa para poder finalizar sua tarefa.
+
+A tabela abaixo apresenta o peso de cada tipo de animal:
+Tipo 	Peso
+Cavalo 	250
+Vaca 	150
+Galinha 	2
+
+Informações extras:
+
+    O objetivo é colocar o máximo de animais, dessa forma os animais de pequeno porte tem prioridade.
+    Ao final do processo é necessário ter como informação a quantidade de cada animal que não pode ser incluído na caravela.
+
+Entradas:
+
+    Limite de Carga (Inteiro).
+    Quantidade de cavalos disponíveis (Inteiro).
+    Quantidade de vacas disponíveis (Inteiro).
+    Quantidade de galinhas disponíveis (Inteiro).
+
+Saída:
+
+    Quantidade de animais que NÃO podem ser incluídos numa caravela na seguinte ordem: Cavalos, Vacas e Galinhas.
+
+Exemplo de entrada:
+
+3000
+10
+10
+10
+
+Exemplo de saída:
+
+5
+0
+0
+
+Peso: 1
+
+Última tentativa realizada em: 17/10/2024 21:27:08
+
+Tentativas: 1 de 6
+
+Nota (0 a 100): 100
+
+Status ou Justificativa de Nota: Nenhum erro encontrado.
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 16: Estrutura Condicional - Maior e Segundo Maior
+
+Faça um algoritmo que leia quatro números reais diferentes. Após isso, imprima o maior valor e o segundo maior valor.
+
+Entradas:
+
+    quatro numeros em ponto flutuante
+
+Saídas:
+
+    dois numeros em ponto flutuante (maior e segundo maior elemento)
+
+Exemplo de entrada:
+
+13.1
+2.2
+5.8
+6.9
+
+Exemplo de saída:
+
+13.1
+6.9
+
+Peso: 1
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 17: Estrutura condicional - Multa de velocidade
+
+Os moradores do município de Passa ou Fica pediram para o prefeito da cidade a instalação de radares nas ruas da cidade. O prefeito, como bom gestor, atendeu às solicitações da população e realizou a instalação dos aparelhos. No entanto, ainda falta o sistema para cálculo das multas. Por isso, o prefeito solicitou que sua empresa desenvolvesse o sistema de cálculo das multas.
+
+O valor base da multa estipulada pela Secretaria de trânsito varia de radar para radar. Esse valor de multa ainda pode ser aumentado, conforme variação da velocidade do motorista, descrito na tabela abaixo:
+
+Velocidade do veículo 	Cálculo da multa
+Até 30% (incluso) acima da velocidade da pista 	Não se aplica
+Acima de 30% da velocidade da pista 	Multa mais acréscimo de 50% do valor da multa
+
+Escreva um programa que calcule a multa recebida por um determinado motorista a partir do valor base da multa, da velocidade da pista e da velocidade registrada no radar para esse motorista.
+
+Entradas:
+
+    Um número real indicando o valor da multa.
+    Um número inteiro indicando a velocidade máxima da pista.
+    Um número inteiro indicando a velocidade registrada pelo radar.
+
+Saída:
+
+    Valor da multa a ser paga pelo motorista. A saída pode ser um número real precedido da string "R$" ou o texto "NAO SE APLICA".
+
+Exemplo de entrada:
+
+100.00
+80
+89
+
+Exemplo de saída:
+
+NAO SE APLICA
+
+Exemplo de entrada:
+
+100.00
+30
+90
+
+Exemplo de saída:
+
+R$ 150.00
+
+Peso: 1
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 18: Estrutura Condicional - Classificando idades.
+
+Faça um programa que receba a idade de um nadador e mostre sua categoria, usando as regras a seguir. Para idade inferior a 5, deverá mostrar mensagem: "Nao registrado".
+
+Obs.: As strings de saída não devem possuir acentuação.
+Categoria 	Idade
+Infantil 	5 a 7
+Juvenil 	8 a 10
+Adolescente 	11 a 15
+Adulto 	16 a 30
+Senior 	Acima de 30
+
+Entradas:
+
+    Idade do nadador (número inteiro).
+
+Saídas:
+
+    Texto que indica a categoria.
+
+Exemplo de Entrada:
+
+16
+
+Exemplo de Saída:
+
+Adulto
+
+Peso: 1
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 19: Estrutura Condicional - Notação pós-fixada
+
+A notação pós-fixada também conhecida como notação polonesa inversa possui a característica de ter o sinal da operação após os números, assim "1 + 2" deve ser escrito na forma "1 2 +", "3 * 5" deve ser "3 5 *", e assim por diante. Faça um programa que leia uma operação na notação pós-fixada e escreva o resultado a operação.
+
+Entradas:
+
+    Dois números inteiros.
+    Símbolo representando a operação que será realizada (+, -, *, /).
+
+Saídas:
+
+    Resultado da operação.
+
+Exemplo de Entrada:
+
+16 5 /
+
+Exemplo de Saída:
+
+3
+
+Peso: 1
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 20: Estrutura Condicional - Tempo de Irritação de Thanos
+
+Thanos aguarda pacientemente a chegada de seus comparsas, que irá lhe trazer, finalmente, mais jóias do infinito. Como ele está muito ansioso e irritado, implemente um algoritmo para calcular quanto tempo, em minutos, você, fiel escudeiro de Thanos, terá que suportar sua irritação. Para isso, você receberá o horário de saída da nave do comparsa e o horário prevista para chegada, que é informado em dois inteiros representando, respectivamente, horas e minutos. Para o cálculo, você irá levar em consideração que o tempo de viagem é inferior a 24 horas, já que os comparsas seriam destruídos caso demorassem mais que isso.
+
+Entradas:
+
+    Horário de saída da nave (dois inteiros representado horas e minutos)
+    Horário previsto para chegada da nave (dois inteiros representado horas e minutos)
+
+Saída:
+
+    Tempo de espera, em minutos
+
+Exemplo de Entrada:
+
+12 59
+18 01
+
+Exemplo de Saída:
+
+302
+
+Exemplo de Entrada:
+
+21 13
+05 07
+
+Exemplo de Saída:
+
+474
+
+Peso: 1
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
+Questão 21: Estrutura Condicional - Comprar Mochila
+
+Um aluno decide comprar uma mochila nova, com isso sua mãe decide ajudar na compra, pagando 20% do valor da mochila, porém ela disse que se esses 20% ultrapassarem 30 reais ele não poderia comprar a mochila.
+
+Faça um programa que leia o valor da mochila (número real) e depois escreva "sim" ou "nao" (note a ausência de acento), indicando se o aluno pode comprar a mochila, seguido do valor que a mãe teria que pagar. O valor a ser pago deverá ser expresso utilizando duas casas decimais (alunos de IALG:use fixed e setprecision()).
+
+Exemplo de Entrada:
+
+159
+
+Exemplo de Saída:
+
+nao 31.80
+
+Peso: 1
+Nova Resposta:
+
+Selecione o arquivo com o código fonte do programa que resolve o problema para enviá-lo.
